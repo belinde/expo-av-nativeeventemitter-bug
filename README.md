@@ -1,4 +1,6 @@
-== Minimal reproducible example for a expo-av bug report
+# Minimal reproducible example for a expo-av bug report
+
+All the relevant code is in the `App.js` file.
 
 As long the App is loaded, a couple of warings appears:
 
@@ -7,4 +9,4 @@ As long the App is loaded, a couple of warings appears:
  WARN  `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
 ```
 
-Whenever the Sound is played, another couple of the same warnings is displayed
+Whenever the Sound is played, another couple of the same warnings is displayed.
